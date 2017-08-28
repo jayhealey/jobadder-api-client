@@ -25,7 +25,7 @@ use Http\Message\MessageFactory;
  */
 class HostReplacementMessageFactory implements MessageFactory
 {
-    private const STATIC_HOST = 'api.jobadder.com';
+    const STATIC_HOST = 'api.jobadder.com';
 
     /**
      * @var MessageFactory
